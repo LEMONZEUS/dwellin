@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Gym with a treadmill, a dumbbell rack, a bench and a mirror wall">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b4268"/><stop offset="1" stop-color="#16243a"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18253b"/><stop offset="1" stop-color="#090f1b"/></linearGradient>
+    <linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fb0e0" stop-opacity="0.45"/><stop offset="1" stop-color="#35507a" stop-opacity="0.15"/></linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#wall)"/>
+  <rect y="320" width="800" height="160" fill="url(#floor)"/>
+  <rect y="316" width="800" height="6" fill="#0e1a2c"/>
+
+  <!-- mirror wall -->
+  <g>
+    <rect x="30" y="50" width="740" height="240" rx="4" fill="#0e1a2c"/>
+    <rect x="38" y="58" width="176" height="224" fill="url(#mirror)"/><rect x="222" y="58" width="176" height="224" fill="url(#mirror)"/>
+    <rect x="406" y="58" width="176" height="224" fill="url(#mirror)"/><rect x="590" y="58" width="172" height="224" fill="url(#mirror)"/>
+    <path d="M70 282 L120 58" stroke="#c9d4e4" stroke-opacity="0.18" stroke-width="14"/>
+    <path d="M440 282 L490 58" stroke="#c9d4e4" stroke-opacity="0.18" stroke-width="14"/>
+  </g>
+
+  <!-- ceiling strip lights -->
+  <g fill="#f2b84b" opacity="0.9"><rect x="120" y="14" width="150" height="8" rx="4"/><rect x="330" y="14" width="150" height="8" rx="4"/><rect x="540" y="14" width="150" height="8" rx="4"/></g>
+
+  <!-- dumbbell rack (left) -->
+  <rect x="64" y="236" width="230" height="14" fill="#0e1a2c"/>
+  <rect x="64" y="300" width="230" height="14" fill="#0e1a2c"/>
+  <rect x="78" y="236" width="10" height="130" fill="#0e1a2c"/><rect x="270" y="236" width="10" height="130" fill="#0e1a2c"/>
+  <g fill="#c9d4e4">
+    <rect x="92" y="212" width="20" height="24" rx="3"/><rect x="118" y="206" width="24" height="30" rx="3"/><rect x="148" y="200" width="28" height="36" rx="3"/>
+    <rect x="182" y="206" width="24" height="30" rx="3"/><rect x="212" y="212" width="20" height="24" rx="3"/><rect x="238" y="218" width="18" height="18" rx="3"/>
+  </g>
+  <g fill="#8fb0e0">
+    <rect x="92" y="276" width="20" height="24" rx="3"/><rect x="118" y="270" width="24" height="30" rx="3"/><rect x="148" y="264" width="28" height="36" rx="3"/>
+    <rect x="182" y="270" width="24" height="30" rx="3"/><rect x="212" y="276" width="20" height="24" rx="3"/><rect x="238" y="282" width="18" height="18" rx="3"/>
+  </g>
+
+  <!-- bench with barbell (center) -->
+  <rect x="330" y="350" width="170" height="22" rx="8" fill="#35507a"/>
+  <rect x="352" y="372" width="12" height="52" fill="#0e1a2c"/><rect x="466" y="372" width="12" height="52" fill="#0e1a2c"/>
+  <rect x="320" y="296" width="190" height="8" fill="#c9d4e4"/>
+  <rect x="316" y="276" width="14" height="48" rx="3" fill="#0e1a2c"/><rect x="302" y="284" width="12" height="32" rx="3" fill="#0e1a2c"/>
+  <rect x="500" y="276" width="14" height="48" rx="3" fill="#0e1a2c"/><rect x="516" y="284" width="12" height="32" rx="3" fill="#0e1a2c"/>
+
+  <!-- treadmill (right) -->
+  <path d="M560 392 L740 392 L760 420 L540 420 Z" fill="#0e1a2c"/>
+  <path d="M590 392 L700 392 L716 408 L574 408 Z" fill="#35507a"/>
+  <rect x="690" y="248" width="12" height="144" rx="3" fill="#0e1a2c"/>
+  <rect x="650" y="228" width="92" height="34" rx="6" fill="#0e1a2c"/>
+  <rect x="660" y="236" width="72" height="18" rx="3" fill="#8fb0e0"/>
+  <rect x="632" y="268" width="70" height="8" rx="4" fill="#0e1a2c" transform="rotate(-12 632 268)"/>
+
+  <!-- yoga mat and ball (front) -->
+  <rect x="120" y="408" width="170" height="18" rx="9" fill="#f2b84b" opacity="0.9"/>
+  <circle cx="420" cy="438" r="26" fill="#46699d"/>
+</svg>
